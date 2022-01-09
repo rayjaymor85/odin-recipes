@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'zantrokeregular';
+    src: url('fonts/zantroke-webfont.woff2') format('woff2'),
+         url('fonts/zantroke-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    min-width: 290px;
+    color: #4d4e53;
+    background: rgb(237,235,226);
+    background: radial-gradient(circle, rgba(237,235,226,1) 0%, rgba(240,242,212,1) 31%, rgba(207,205,172,0.6587009803921569) 100%);
+    font-family: 'zantrokeregular', serif;
+    line-height: 1.25;
+    text-align: center;
+}
+
