@@ -1,7 +1,6 @@
 @font-face {
-    font-family: 'zantrokeregular';
-    src: url('fonts/zantroke-webfont.woff2') format('woff2'),
-         url('fonts/zantroke-webfont.woff') format('woff');
+    font-family: 'Norse';
+    src: url("/images/Norse.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
@@ -11,8 +10,41 @@ html {
     color: #4d4e53;
     background: rgb(237,235,226);
     background: radial-gradient(circle, rgba(237,235,226,1) 0%, rgba(240,242,212,1) 31%, rgba(207,205,172,0.6587009803921569) 100%);
-    font-family: 'zantrokeregular', serif;
     line-height: 1.25;
     text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
+h1,
+h2,
+h3 {
+    font-family: 'Norse', serif;
+}
+
+div.container {
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+  }
+  
+ul.recipeUL,
+ol.recipeOL {
+    display: block;
+    text-align: left;
+}
+
+a {
+    font-style: underline;
+    color: #4d4e53;
+}
+
+.nav {
+    font-family: 'Norse', serif;
+    background-color: #4d4e53;
+    color: #ffffff;
+    font-size: 25px;
+    margin: 10px;
+    padding: 20px;
+}
